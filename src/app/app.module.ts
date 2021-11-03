@@ -9,7 +9,7 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { FooterComponent } from './footer/footer.component';
 import { CaseComponent } from './case/case.component';
 import { ContactComponent } from './contact/contact.component';
-import { ReviewComponent } from './review/review.component';
+
 
 @NgModule({
   declarations: [
@@ -19,8 +19,7 @@ import { ReviewComponent } from './review/review.component';
     NavbarComponent,
     FooterComponent,
     CaseComponent,
-    ContactComponent,
-    ReviewComponent
+    ContactComponent
   ],
   imports: [
     BrowserModule,
